@@ -5,7 +5,9 @@ Scientific Software Best Practices Guidelines
 =============================================
 
 .. image:: https://travis-ci.org/E-CAM/best-practices.svg?branch=master
+   :width: 20%
 .. image:: https://readthedocs.org/projects/scientific-software-best-practices/badge/?version=latest
+   :width: 20%
 
 This document is not meant to be a set of rules, but a set of guidelines that have been formed on the basis of
 hard-earned experience. We welcome contributions from anyone, anywhere on any of the topics discussed here. The
