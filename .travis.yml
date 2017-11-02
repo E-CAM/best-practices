@@ -1,0 +1,9 @@
+language: python
+python:
+  - "2.7"
+
+sudo: false
+cache: pip
+
+install: "pip install sphinx~=1.5.3 sphinx_bootstrap_theme"
+script: READTHEDOCS=True sphinx-build -nWT -b html . _build/html
