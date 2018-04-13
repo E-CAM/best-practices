@@ -75,3 +75,15 @@ specific things that need to be considered that impact the software development 
 ..    * Accessing resources (ssh, gui's,...)
 ..    * Resource management (slurm, UNICORE, ...)
 ..    * Moving data
+
+Contributor Guide
+=================
+
+This documentation is completely open and we welcome both internal and external contributions. If you would like to
+contribute to this effort then please follow the steps below to allow us to include your contribution.
+
+.. toctree::
+    :glob:
+    :maxdepth: 1
+
+    ./contributing
