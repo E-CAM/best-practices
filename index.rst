@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. _index:
+.. _best_practices:
 
 ==================================
 Scientific Software Best Practices
@@ -13,6 +13,7 @@ Scientific Software Best Practices
 
     .. contents:: :local:
 
+    * :ref:`contributing`
     * :ref:`search`
 
 .. image:: ./images/512px-Waterfall_model.svg.png
@@ -21,10 +22,10 @@ Scientific Software Best Practices
     :align: left
 
 
-This document is not meant to be a set of rules, but a set of guidelines that have been formed on the basis of
+This text is not meant to be a set of rules, but a set of guidelines that have been formed on the basis of
 hard-earned experience. We welcome contributions from anyone, anywhere on any of the topics discussed here. The home
-repository for this document can be found on the `Scientific Software Best Practices GitHub Repository
-<https://github.com/E-CAM/best-practices>`_.
+repository for this documentation is within the `E-CAM Software Library
+<https://gitlab.e-cam2020.eu/e-cam/E-CAM-Library>`_.
 
 It began as a starting point for guidelines for contributions to the Extended Software Development Workshops (ESDWs)
 of E-CAM but can be considered as a collection of best practice advice for scientific software development.
@@ -41,44 +42,36 @@ on.
 
 .. toctree::
     :glob:
-    :maxdepth: 2
+    :maxdepth: 3
 
     ./general/general_programming_guidelines
 
 Programming for an HPC Environment
 ==================================
 
-.. Incorporate the output of D7.3 to generate this section
-
-.. note:: This section of the site is under development but will cover the following topics
-
-* Software
-    * Programming Paradigms
-    * Languages
-    * Applications and Libraries
-    * Portability and Optimisation
-    * Scalability
-    * Reproducability
-* Hardware
-    * General Architecture
-    * Where is the compute power on modern HPC machines?
-    * Memory
-    * I/O
-* Workflow
-    * Acquiring resources (getting compute time)
-    * Accessing resources (ssh, gui's,...)
-    * Resource management (slurm, UNICORE, ...)
-    * Moving data
-
-Contributor Guide
-=================
-
-This documentation is completely open and we welcome both internal and external contributions. If you would like to
-contribute to this effort then please follow the steps below to allow us to include your contribution.
+Due to the nature of the HPC environment (novel hardware, latest techniques, remote resources,...). There are many
+specific things that need to be considered that impact the software development process.
 
 .. toctree::
     :glob:
-    :maxdepth: 1
+    :maxdepth: 3
 
-    ./contributing
+    ./hpc/hpc_programming_guidelines
 
+.. * Software
+..    * Programming Paradigms
+..    * Languages
+..    * Applications and Libraries
+..    * Portability and Optimisation
+..    * Scalability
+..    * Reproducability
+.. * Hardware
+..    * General Architecture
+..    * Where is the compute power on modern HPC machines?
+..    * Memory
+..    * I/O
+.. * Workflow
+..    * Acquiring resources (getting compute time)
+..    * Accessing resources (ssh, gui's,...)
+..    * Resource management (slurm, UNICORE, ...)
+..    * Moving data
